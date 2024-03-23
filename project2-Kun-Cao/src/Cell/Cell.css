@@ -1,0 +1,67 @@
+.cell{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border: solid 0.1px white;
+}
+
+.cell:hover{
+    background-color: #224;
+    opacity: 0.8;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.alive{
+    background-color:#FF4500;
+}
+
+.alive:hover{
+    background-color: #FF7F50;
+    opacity: 0.8;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+.heat-color-1 {
+    background-color: #FFEBE5;
+  }
+  
+  .heat-color-2 {
+    background-color: #FFDAB9;
+  }
+  
+  .heat-color-3 {
+    background-color: #FFDAB9;
+  }
+  
+  .heat-color-4 {
+    background-color: #FFCBA4;
+  }
+  
+  .heat-color-5 {
+    background-color: #FFA07A;
+  }
+  
+  .heat-color-6 {
+    background-color: #FF8C69;
+  }
+  
+  .heat-color-7 {
+    background-color: #FF7F50;
+  }
+  
+  .heat-color-8 {
+    background-color: #FF6347;
+  }
+  
+  .heat-color-9 {
+    background-color: #FF6348;
+  }
+  
+  .heat-color-10 {
+    background-color: #FF4500;
+  }
+  

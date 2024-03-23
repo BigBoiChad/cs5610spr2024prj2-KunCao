@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-size: 14px;
+  text-align: justify;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+section {
+  min-height: 100vh;
+  padding: 1em;
+  margin: auto;
+  max-width: 800px;
+  
+}
+@media (max-width: 800px) {
+  section {
+    max-width: 100%; /* Adjusts the maximum width to fit the viewport */
+  }
+}
+
+.section h1, p, li{
+    /* the text background */
+    background: url(https://images.unsplash.com/photo-1575058752200-a9d6c0f41945?&q=85);
+    background-size: 100vw auto;
+    background-position: center;
+    /* clip the text is possible */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* fallback text color */
+    color: black;
+  }
+section h2 {
+  font-family: 'Fraunces', serif;
+  font-size: xx-large;
+}
+
+
+section p {
+  font-family:"Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: large;
+}
+
+.dual-language-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start; /* Align items at the start of the flex container */
+  max-width: auto; 
+  border-radius: 20px;
+ 
+}
+
+
+.dual-language-container p{
+    margin: 20px;
+    font-size: larger;
+}
+
+.dual-language-container ol{
+    list-style:circle;
+}
+
+.dual-language-container ol li{
+    padding-top: 10px;
+    font-size: large;
+}
+
+
+.orbContainer {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+
+.orb {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    position:relative;
+    border-radius: 50%;
+    box-shadow: inset 0 0 30px #fff, inset 20px 0 60px violet, inset -20px 0 60px #0ff, inset 20px 0 300px violet, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 60px violet, 10px 0 60px #0ff;
+}
+.orb:hover {
+    transform: rotateY(0deg) scale(1.22);
+    width: 200px;
+    height: 150px;
+    transition: 500ms;
+    cursor:pointer;
+}
+
+.orb h1{
+    color: black;
+    opacity: 0.6;
+    font-size: small;
+}
+
+.orb h1:hover{
+    color: wheat;
+}
